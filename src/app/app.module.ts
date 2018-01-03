@@ -4,7 +4,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AlertModule, CollapseModule } from 'ngx-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
-
 import { AppComponent } from './app.component';
 import { EventService } from './shared/event.service';
 import { LoggedInGuardGuard } from './shared/logged-in-guard.guard';

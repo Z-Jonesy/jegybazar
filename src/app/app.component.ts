@@ -8,7 +8,4 @@ import {ChatService} from './chat/chat.service';
 })
 export class AppComponent {
 
-  constructor(chatService: ChatService) {
-    console.log(chatService);
-  }
 }
